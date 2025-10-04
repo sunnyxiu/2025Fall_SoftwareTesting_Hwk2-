@@ -23,4 +23,4 @@ jobs:
       run: pytest --cov=Calc --cov-report=term-missing
 
     - name: Run static analysis
-      run: flake8 Calc test_calc.py
+      run: flake8 Calc.py test_calc.py
